@@ -16,6 +16,6 @@ l = [0, -1, 1]
 pass_test(l,test)
 # Tests
 """
->>> foo(list, test())
-True 6
+>>> foo(list, test
+True 1
 """
