@@ -11,11 +11,14 @@ array should not be sorted in numerical order.
 
 def unique_list(a_list, b_list):
     for num in a_list:
-        b_list.remove(num)
+        if num in b_list:
+            b_list.remove(num)
+            
     concat = a_list + b_list
     print(concat)
 
 unique_list([1,2,3], [1,2,3,4,5])
+unique_list([1,1,7,5], [3,9,4,5])
 
 
 
